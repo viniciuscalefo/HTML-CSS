@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color: rgba(128, 156, 128, 0.705);
+            color: white;
+        }
+        h1{
+            background-color: rgb(122, 153, 122);
+        }
+        /*section#assuntos{
+            background-color: aquamarine;
+            width: 180px;
+        }*/
+        li > a{color: darkred;
+            text-decoration: none;
+        } li> a:hover{
+            text-decoration: underline;
+        }
+        nav{
+            background-color: rgb(87, 102, 116);
+            color:white;
+            width: 300px;
+        }
+        nav>a {
+            padding-right: 10px;
+        }
+        main{
+            background-color: white;
+            color: lightblue;
+            border-radius: 20px;
+        }
+        h2{
+            color: rgb(106, 146, 106);
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Grouping tags HTML 5</h1>
+    <!--<div></div> tipo box level, vai quebrsr uma linha e tomarpara si o espaço-->
+    <!--<span></span> tipo inline level vai "entrar no meio"-->
+    <header> cabeçalho
+        <h1>meu site</h1>
+        <nav>
+        <a href="#">Link </a> 
+        <a href="#">Link </a> 
+        <a href="#">Link </a> 
+        <a href="#">Link </a> 
+        </nav> menu
+    </header>
+    <main>
+        <section id="assuntos">
+            futebol politica e outros
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias do brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Dolore dolor ipsa atque? Amet aliquid officiis similique 
+                    mollitia dicta exercitationem animi reprehenderit, labor
+                    um modi,quibusdam alias aliquam obcaecati esse doloremque
+                     perferendis?</p>
+                     <aside>
+                       <p>ARTIGO ESCRITPPO moá</p> 
+                     </aside>
+            </article>
+        </section>
+    </main>
+
+    <main>conteudo principal</main>
+    <footer>
+        <p>Desenvolvido por</p>
+    </footer>
+
+</body>
+</html>

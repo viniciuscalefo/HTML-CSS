@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/*em HTML id = em CSS #
+em HRTML class = em CSS .  */
+
+body{
+    background-color: rgb(76, 104, 104);
+}
+h1{
+    color:  rgb(16, 141, 54);
+}
+h1#princi{
+    text-align: center;
+    color: blue;
+}
+h2{
+    color: rgb(184, 39, 184);
+}
+.basico{
+    color: azure;
+    background-color: black;
+}
+.intermedi{
+    color: yellow;
+    background-color: coral;
+}
+.avancado{
+    color: red;
+    background-color: rgb(214, 147, 147);
+}

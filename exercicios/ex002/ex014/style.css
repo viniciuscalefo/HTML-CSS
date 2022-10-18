@@ -1,0 +1,17 @@
+@charset "UTF- 8";
+body{
+    background-color: aqua;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+h1{
+    color:azure;
+    background-color: blanchedalmond;
+}
+h2{
+    color: cadetblue;
+    background-color: chartreuse;
+}
+p{
+    text-align: justify;
+}
